@@ -21,6 +21,6 @@ Plasma's Kickoff (Application Launcher) menu with favorites in columns/grid.
 
 ## Screenshots
 
-![](https://i.imgur.com/CHGaYBw.png)
+![](https://raw.githubusercontent.com/Alzemand/plasma-kickoff-grid/master/contents/menu.gif)
 
 
