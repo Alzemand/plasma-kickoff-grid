@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=Application Launcher (Favorites in a Grid)
+Comment=Launcher to start applications
+
+Icon=show-grid
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/Kickoff.qml
+X-Plasma-Provides=org.kde.plasma.launchermenu
+
+X-Plasma-RequiredExtensions=LaunchApp
+
+X-KDE-PluginInfo-Author=cupnoodles
+X-KDE-PluginInfo-Email=cupn8dles@gmail.com
+X-KDE-PluginInfo-Name=com.gitlab.cupnoodles14.kickoff
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=https://gitlab.com/cupnoodles14/plasma-kickoff-grid
+X-KDE-PluginInfo-Category=Application Launchers
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL-2.0+
+X-KDE-PluginInfo-EnabledByDefault=true

@@ -1,0 +1,94 @@
+ <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+	<Name>Applications</Name>
+	<Directory></Directory>
+	<!-- Search the default locations -->
+	<DefaultAppDirs/>
+	<DefaultDirectoryDirs/>
+	<DefaultLayout>
+		<Merge type="menus"/>
+		<Merge type="files"/>
+		<Separator/>
+		<Menuname></Menuname>
+	</DefaultLayout>
+	<Layout>
+		<Merge type="menus"/>
+		<Menuname></Menuname>
+		<Merge type="files"/>
+	</Layout>
+
+	<Menu>
+		<Name></Name>
+		<Directory></Directory>
+		<OnlyUnallocated/>
+		<Include>
+			<Not>
+				<!-- Don't list non-KDE core applications -->
+				<And>
+					<Category>Core</Category>
+					<Not><Category>KDE</Category></Not>
+				</And>
+				<!-- Don't list SUSE's YaST in here -->
+				<Category>X-SuSE-YaST</Category>
+				<Category>X-KDE-settings-hardware</Category>
+				<Category>X-KDE-settings-accessibility</Category>
+				<Category>X-KDE-settings-components</Category>
+				<Category>X-KDE-settings-desktop</Category>
+				<Category>X-KDE-settings-looknfeel</Category>
+				<Category>X-KDE-settings-network</Category>
+				<Category>X-KDE-settings-webbrowsing</Category>
+				<Category>X-KDE-settings-peripherals</Category>
+				<Category>X-KDE-settings-hardware</Category>
+				<Category>X-KDE-settings-power</Category>
+				<Category>X-KDE-settings-security</Category>
+				<Category>X-KDE-settings-sound</Category>
+				<Category>X-KDE-settings-system</Category>
+				<Category>X-KDE-information</Category>
+				<Filename>kde-kcm_knetworkconfmodule_ss.desktop</Filename>
+				<Filename>kde-medianotifications.desktop</Filename>
+				<Filename>kde-audioencoding.desktop</Filename>
+			</Not>
+		</Include>
+	</Menu>
+	<Menu>
+		
+	</Menu>
+	<Include>
+		<And>
+			<Category>KDE</Category>
+			<Category>Core</Category>
+			<Category>Development</Category>
+			<Category>WebDevelopment</Category>
+			<Category>Translation</Category>
+			<Category>Science</Category>
+            <Category>Astronomy</Category>
+            <Category>Biology</Category>
+            <Category>Chemistry</Category>
+            <Category>Geology</Category>
+            <Category>MedicalSoftware</Category>
+            <Category>Physics</Category>
+            <Category>Math</Category>
+            <Category>Science</Category>
+			<Category>Education</Category>
+			<Category>Languages</Category>
+            <Category>Math</Category>
+            <Category>Science</Category>
+            <Category>Teaching</Category>
+			<Category>Mathematics</Category>
+			<Category>Miscellaneous</Category>
+			<Category>Tools</Category>
+			<Category>Games</Category>
+			<Category>Board</Category>
+            <Category>Graphics</Category>
+            <Category>Internet</Category>
+            <Category>Multimedia</Category>
+            <Category>Office</Category>
+            <Category>Utilities</Category>
+            <Category>Settings</Category>
+		</And>
+	</Include>
+	<DefaultMergeDirs/>
+	<MergeFile></MergeFile>
+</Menu>
