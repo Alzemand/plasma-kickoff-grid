@@ -19,7 +19,7 @@ Plasma's Kickoff (Application Launcher) menu with favorites in columns/grid.
 
 2. Switch to it by right-clicking on Application Launcher > Show Alternatives... > Choose Application Launcher (Favorites in a Grid).
 
-## Screenshots
+## Working
 
 ![](https://raw.githubusercontent.com/Alzemand/plasma-kickoff-grid/master/contents/menu.gif)
 
